@@ -30,7 +30,7 @@ create_delay_corner -name min_delay\
 
 create_constraint_mode -name sdc_cons\
    -sdc_files\
-    /home/nielit/aarushi/counter_design_database_45nm/constraints/alu.sdc
+    /home/nielit/akshat/counter_design_database_45nm/constraints/alu.sdc
 
 create_analysis_view -name wc -constraint_mode sdc_cons -delay_corner max_delay
 create_analysis_view -name bc -constraint_mode sdc_cons -delay_corner min_delay
