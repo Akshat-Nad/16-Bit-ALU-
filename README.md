@@ -1,4 +1,4 @@
-# 16-bit ALU ASIC Project
+# 16-bit ALU Project
 
 This project presents the **design and implementation of a 16-bit Arithmetic Logic Unit (ALU)**, carried out through the **complete ASIC design flow**, from RTL coding to final GDSII layout.
 
