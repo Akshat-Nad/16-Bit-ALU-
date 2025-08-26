@@ -6,12 +6,12 @@ The ALU executes a set of **arithmetic and logical operations**, making it a fun
 
 ### Key Highlights
 - RTL design implemented in **Verilog HDL**  
-- Functional verification via **testbenches and waveform simulations**  
-- Logic synthesized to a **gate-level netlist** using industry-standard tools  
-- **Place & Route (P&R)** completed with optimized placement and clock tree synthesis  
-- Final **GDSII layout** generated, with DRC and LVS compliance  
+- Functional verification via **testbenches and waveform simulations** using Xcelium.
+- Logic synthesized to a **gate-level netlist** using Cadence Genus. 
+- **Place & Route (P&R)** completed with optimized placement and routing using Innovus. 
+- Final **GDSII layout** generated, with DRC and LVS compliance checks. 
 
 ### Tools & Technologies
+- **Functional Verification :** Cadence Xcelium
 - **Synthesis:** Cadence Genus  
 - **Physical Design:** Cadence Innovus  
-- **Verification:** DRC & LVS checks  
