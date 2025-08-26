@@ -1,13 +1,12 @@
-set_db init_netlist_files /home/nielit/aarushi/counter_design_database_45nm/physical_design/alunetlist.v
+set_db init_netlist_files /home/nielit/akshat/counter_design_database_45nm/physical_design/alunetlist.v
 set_db init_lef_files {../lef/gsclib045_tech.lef ../lef/gsclib045_macro.lef}
 set_db init_power_nets VDD
 set_db init_ground_nets VSS
 set_db init_mmmc_files  alu.view
 read_mmmc alu.view
 read_physical -lef {../lef/gsclib045_tech.lef ../lef/gsclib045_macro.lef}
-read_netlist /home/nielit/aarushi/counter_design_database_45nm/physical_design/alunetlist.v -top alu64
+read_netlist /home/nielit/akshat/counter_design_database_45nm/physical_design/alunetlist.v -top alu64
 init_design
-
 
 connect_global_net VDD -type pg_pin -pin_base_name VDD -inst_base_name *
 connect_global_net VSS -type pg_pin -pin_base_name VSS -inst_base_name *
