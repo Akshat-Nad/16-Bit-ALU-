@@ -1,6 +1,6 @@
-# 16-bit ALU Project
+# 64-bit ALU Project
 
-This project presents the **design and implementation of a 16-bit Arithmetic Logic Unit (ALU)**, carried out through the **complete ASIC design flow**, from RTL coding to final GDSII layout.
+This project presents the **design and implementation of a 64-bit Arithmetic Logic Unit (ALU)**, carried out through the **complete ASIC design flow**, from RTL coding to final GDSII layout.
 
 The ALU executes a set of **arithmetic and logical operations**, making it a fundamental building block for processors, microcontrollers, and digital systems. The project highlights practical **VLSI design methodologies**, emphasizing timing optimization, power efficiency, and physical layout considerations.
 
